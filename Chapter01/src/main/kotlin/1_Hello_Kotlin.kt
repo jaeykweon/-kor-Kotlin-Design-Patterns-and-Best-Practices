@@ -1,7 +1,7 @@
 /*
- * I'm a block comment
+ * 블록 주석입니다
  */
 fun main() {
-    // I'm a regular comment
+    // 일반적인 주석입니다
     println("Hello Kotlin")
 }

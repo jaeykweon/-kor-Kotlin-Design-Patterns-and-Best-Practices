@@ -22,33 +22,23 @@ fun arrays() {
 
 fun maps() {
     val movieBatmans = mapOf(
-
         "Batman Returns" to "Michael Keaton",
-
         "Batman Forever" to "Val Kilmer",
-
         "Batman & Robin" to "George Clooney"
-
     )
 
     println(movieBatmans["Batman Returns"])
 
     println("Batman Begins" !in movieBatmans)
 
-    // Mutable map that is sorted by its keys
+    // key로 정렬되는 mutable map
 
     val treeMap = TreeMap(
-
         mapOf(
-
             "Practical Pig" to "bricks",
-
             "Fifer" to "straw",
-
             "Fiddler" to "sticks"
-
         )
-
     )
 
     println(treeMap.keys)
@@ -69,8 +59,8 @@ fun lists() {
 
     println(hobbits[1])
 
-    // Won't compile
-    // hobbits[0] = "Bilbo" // Unresolved reference
+    // 컴파일 되지 않습니다
+    //   hobbits[0] = "Bilbo" // Unresolved reference
 
     val editableHobbits = mutableListOf("Frodo", "Sam", "Pippin", "Merry")
 

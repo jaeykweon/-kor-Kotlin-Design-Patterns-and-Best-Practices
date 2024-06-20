@@ -9,9 +9,7 @@ fun main() {
 
 fun loops() {
     for (c in "Word") {
-
         println(c)
-
     }
 
     val jokers = listOf("Heath Ledger", "Joaquin Phoenix", "Jack Nicholson")
@@ -25,7 +23,7 @@ fun loops() {
     }
 
     for (i in 0 until 10) {
-        println("for until $i") // Same output as the previous loop
+        println("for until $i") // 이전 루프와 동일한 출력
     }
 
     for (i in 9 downTo 0) {
@@ -67,8 +65,8 @@ fun getUnixSocketPolling(isBsd: Boolean): String {
 // Shorter version:
 /*
 fun getUnixSocketPolling(isBsd: Boolean): String =
-    if (isBsd) "kqueue" else "epoll"*/
-
+    if (isBsd) "kqueue" else "epoll"
+*/
 
 
 fun archenemy(heroName: String) = when (heroName) {

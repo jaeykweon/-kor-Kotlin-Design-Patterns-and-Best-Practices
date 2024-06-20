@@ -6,7 +6,7 @@
 
 ## 현황
 
-- [ ] Chapter01
+- [x] Chapter01
 - [ ] Chapter02
 - [ ] Chapter03
 - [ ] Chapter04

@@ -1,20 +1,19 @@
 fun main() {
-    // Creating a class with empty constructor
+    // 빈 생성자로 클래스 생성
     // val player = Player()
 
     val player = Player("Roland")
 
     println(player.name)
 
-    // Won't compile
-    // player.name = "Alex" // Val cannot be reassigned
+    // 컴파일 되지 않습니다
+    // player.name = "Alex" // val 은 재할당 될 수 없습니다
 
     // Invalid score
     player.score = -10
 }
 
-
-// Class with default empty constructor
+// 빈 생성자를 가진 클래스
 /*
 class Player {
 
